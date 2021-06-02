@@ -1,35 +1,59 @@
-
+body {
+    padding-left: 2em ;
+    padding-right: 2em ;
+}
 
 #menu {
     display: flex;
     justify-content: space-around;
-    background-color: aqua;
-    padding-left: 2em ;
-    padding-right: 2em ;
     padding-top: 1em;
 }
 
 .element:nth-child(1)
 {
-    flex: 2;
+    flex: 5;
     margin: auto;
 }
 .element:nth-child(2)
 {
     flex: 1;
-    background-color:blue;
     margin: auto;
     
 }
 .element:nth-child(3)
 {
     flex: 1;
-    background-color: rgb(59, 82, 38);
     margin: auto;
 }
 .element:nth-child(4)
 {
     flex: 1;
-    background-color: rgb(182, 139, 59);
     margin: auto;
+}
+
+#Rechercher {
+    border: 1px solid grey;
+    float: left;
+}
+
+#Rechercher input{
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid grey;
+    background: #f1f1f1;
+}
+
+#Rechercher button{
+    padding: 10px;
+    font-size: 17px;
+    color: white;
+    border: 1px solid #0065FC;
+    background: #0065FC;
+}
+
+#Rechercher img{
+    width: 1.5em;
+	height: 1.5em;
+    margin: auto;
+
 }
