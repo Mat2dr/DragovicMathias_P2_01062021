@@ -144,4 +144,19 @@ a:link {
     border-radius: 25px 25px 25px 25px;
 }
 
+#Info {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    column-gap: 15px;
+}
 
+.InfoIcon {
+    padding: 5px;
+    border: 2px solid #F2F2F2;
+    border-radius: 25px 25px 25px 25px;
+}
+
+.InfoIcon i{
+    color: #0065FC;
+}
