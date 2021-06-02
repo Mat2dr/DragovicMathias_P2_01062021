@@ -31,9 +31,10 @@ body {
     margin: auto;
 }
 
-#Rechercher {
-    border: 1px solid grey;
-    float: left;
+#Rechercher {   
+    display: flex;
+    align-items: center;
+    
 }
 
 #Rechercher input{
@@ -52,8 +53,8 @@ body {
 }
 
 #Rechercher img{
-    width: 1.5em;
-	height: 1.5em;
-    margin: auto;
+    padding: 10px;
+    max-width: 25px;
+    border: 1px solid grey;
 
 }
