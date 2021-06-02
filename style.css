@@ -98,3 +98,48 @@ a:link {
 }
 
 /* Parametres des filtres */
+#Filtres {
+    margin-top: 20px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    column-gap: 50px;
+    flex-wrap: wrap;
+}
+
+#Filtres h3 {
+    font-size: 1em;
+}
+
+.TitreFiltres h2{
+    font-size: 1em;
+    font-weight: bold;
+}
+
+.ButtonFiltres {
+    display: flex;
+    align-items: center;
+}
+
+.IconFiltre {
+    padding: 15px;
+    border: 1px solid #F2F2F2;
+    border-radius: 25px 25px 25px 25px;
+    background-color: #DEEBFF;
+}
+
+.IconFiltre i{
+    color: #0065FC;
+}
+
+.TextFiltre {
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+.ButtonFiltres {
+    border: 1px solid #F2F2F2;
+    border-radius: 25px 25px 25px 25px;
+}
+
+
