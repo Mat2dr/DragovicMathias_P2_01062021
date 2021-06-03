@@ -145,6 +145,7 @@ a:link {
 }
 
 #Info {
+    margin-top: 15px;
     display: flex;
     justify-content: flex-start;
     align-items: center;
@@ -159,4 +160,37 @@ a:link {
 
 .InfoIcon i{
     color: #0065FC;
+}
+
+/* Parametres des hebergements */
+
+#Hebergement {
+    margin-top: 30px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    column-gap: 50px;
+    flex-wrap: wrap;
+}
+
+.hebergementExemple {
+    flex-grow: 3;
+    border: 2px solid #F2F2F2;
+    border-radius: 25px 25px 25px 25px;
+    background-color: #F2F2F2;
+    padding: 25px;
+}
+
+.hebergementPopulaire {
+    flex-grow: 1;
+    border: 2px solid #F2F2F2;
+    border-radius: 25px 25px 25px 25px;
+    background-color: #F2F2F2;
+    padding: 25px;
+}
+
+#Hebergement h2 {
+    font-size: 1.3em;
+    font-weight: bolder;
+
 }
