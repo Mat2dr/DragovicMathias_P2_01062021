@@ -170,7 +170,15 @@ a:link {
     justify-content: flex-start;
     align-items: center;
     column-gap: 50px;
-    flex-wrap: wrap;
+}
+#Hebergement h2 {
+    font-size: 1.3em;
+    font-weight: bolder;
+}
+
+#Hebergement h4 {
+    font-size: 1em;
+    font-weight: bolder;
 }
 
 .hebergementExemple {
@@ -179,8 +187,34 @@ a:link {
     border-radius: 25px 25px 25px 25px;
     background-color: #F2F2F2;
     padding: 25px;
+    
 }
 
+#ContentHebergement {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.Annonce {
+    display: flex;
+    flex-direction: column;
+    width: 28%;
+    margin-bottom: 5%;
+
+    border: 5px solid white;
+    border-radius: 25px 25px 25px 25px;
+    background-color: white;
+}
+
+.ImageAnnonce img{
+    width: 100%;
+    height: auto;
+    border-radius: 25px 25px 0px 0px;
+}
+
+
+/* Parametre  LES PLUS POPULAIRES*/
 .hebergementPopulaire {
     flex-grow: 1;
     border: 2px solid #F2F2F2;
@@ -189,8 +223,16 @@ a:link {
     padding: 25px;
 }
 
-#Hebergement h2 {
-    font-size: 1.3em;
-    font-weight: bolder;
-
+.hebergementPopulaire {
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
 }
+.AnnoncePop {
+    border: 2px solid white;
+    border-radius: 25px 25px 25px 25px;
+    background-color: white;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
