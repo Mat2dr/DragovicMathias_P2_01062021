@@ -1,6 +1,7 @@
 /* Parametres globaux de la page*/
 body {
     font-family: "Raleway";
+    margin: 0;
 
 }
 
@@ -8,10 +9,11 @@ body {
 #menu {
     display: flex;
     justify-content: space-around;
-    padding-top: 2em;
+    align-items: center;
+    padding: 32px;
     column-gap: 50px;
-    padding-left: 5% ;
-    padding-right: 5% ;
+    padding-left: 50px ;
+    padding-right: 50px ;
 
 }
 
@@ -19,19 +21,19 @@ body {
     margin-left: auto;
 }
 
-a:link {
+#menu a:link {
     text-decoration: none;
   }
   
-  a:visited {
+#menu a:visited {
     text-decoration: none;
   }
   
-  a:hover {
+#menu  a:hover {
     text-decoration: overline;
   }
   
-  a:active {
+#menu a:active {
     text-decoration: overline;
   }
 
@@ -52,8 +54,8 @@ a:link {
 
 /* Parametres Text Header */
 #Head {
-    padding-left: 5% ;
-    padding-right: 5% ;
+    padding-left: 50px ;
+    padding-right: 50px ;
 }
 
 #Head h1{
@@ -73,8 +75,8 @@ a:link {
     display: flex;
     align-items: center;
     justify-content: flex-start;
-    padding-left: 5% ;
-    padding-right: 5% ;
+    padding-left: 50px ;
+    padding-right: 50px ;
     
 }
 
@@ -113,8 +115,8 @@ a:link {
     align-items: center;
     column-gap: 50px;
     flex-wrap: wrap;
-    padding-left: 5% ;
-    padding-right: 5% ;
+    padding-left: 50px ;
+    padding-right: 50px ;
 }
 
 #Filtres h3 {
@@ -160,8 +162,8 @@ a:link {
     justify-content: flex-start;
     align-items: center;
     column-gap: 15px;
-    padding-left: 5% ;
-    padding-right: 5% ;
+    padding-left: 50px ;
+    padding-right: 50px ;
 }
 
 .InfoIcon {
@@ -181,9 +183,26 @@ a:link {
     display: flex;
     justify-content: flex-start;
     column-gap: 35px;
-    padding-left: 5% ;
-    padding-right: 2% ;
+    padding-left: 50px ;
+    padding-right: 50px ;
 }
+
+#Hebergement a:link {
+    text-decoration: none;
+  }
+  
+#Hebergement a:visited {
+    text-decoration: none;
+  }
+  
+#Hebergement  a:hover {
+    text-decoration: overline;
+  }
+  
+#Hebergementu a:active {
+    text-decoration: overline;
+  }
+
 #Hebergement h2 {
     font-size: 1.3em;
     font-weight: bolder;
@@ -215,7 +234,10 @@ a:link {
     border: 5px solid white;
     border-radius: 25px 25px 25px 25px;
     background-color: white;
-    min-width: 100px;
+    width: auto;
+    max-width: 27%;
+    min-width: 220px;
+
     
 }
 .Annonce i {
@@ -223,7 +245,7 @@ a:link {
 }
 
 .ImageAnnonce img{
-    width: 220px;
+    width: 100%;
     height: 110px;
     object-fit: cover;
     border-radius: 25px 25px 0px 0px;
@@ -293,7 +315,6 @@ a:link {
 
 
 #Activites {
-    padding: 600px;
 }
 
 #PageFooter {
