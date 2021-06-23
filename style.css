@@ -135,11 +135,13 @@ body {
 }
 
 .IconFiltre {
-    margin-left: -0.2em;
+    margin-left: -2px;
     padding: 15px;
-    border: 0px solid #F2F2F2;
-    border-radius: 25px 25px 25px 25px;
+    border-radius: 50%;
     background-color: #DEEBFF;
+    width: 20px;
+    height: 20px;
+    text-align: center;
 }
 
 .IconFiltre i{
@@ -290,35 +292,14 @@ body {
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 #Activites {
+    
 }
 
 #PageFooter {
     padding-top: 50px;
     background-color: #F2F2F2;
+    display: flex;
 }
+
 
