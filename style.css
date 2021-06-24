@@ -191,6 +191,7 @@ body {
 
 #Hebergement a:link {
     text-decoration: none;
+    color: black;
   }
   
 #Hebergement a:visited {
@@ -198,11 +199,11 @@ body {
   }
   
 #Hebergement  a:hover {
-    text-decoration: overline;
+    text-decoration: none;
   }
   
 #Hebergementu a:active {
-    text-decoration: overline;
+    text-decoration: none;
   }
 
 #Hebergement h2 {
@@ -213,6 +214,13 @@ body {
 #Hebergement h4 {
     font-size: 18px;
     font-weight: bolder;
+    margin-block-start: 5px;
+    margin-block-end: 0px;
+}
+
+#Hebergement p {
+    margin-block-start: 10px;
+    margin-block-end: 10px;
 }
 
 .hebergementExemple {
@@ -222,6 +230,12 @@ body {
     padding: 25px;
     
 }
+
+#Hebergement .Note {
+    padding-bottom: 8px;
+
+}
+
 
 #ContentHebergement {
     display: flex;
