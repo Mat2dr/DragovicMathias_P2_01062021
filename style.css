@@ -309,11 +309,47 @@ body {
     color: #0065FC;
 }
 
+/* Parametre  Activites*/
 
 #Activites {
+    padding-top: 20px;
     padding-left: 50px;
-    
+    padding-bottom: 70px;
 }
+
+.ContentActivites {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+#Activites .Annonce {
+    background-color: #F2F2F2;
+}
+
+
+
+#Activites a:link {
+    text-decoration: none;
+    color: black;
+  }
+
+#Activites a:visited {
+    text-decoration: none;
+  }
+
+#Activites  a:hover {
+    text-decoration: none;
+  }
+  
+#Activites a:active {
+    text-decoration: none;
+  }
+
+
+
+
+/* Parametre  Footer*/
 
 #PageFooter {
     padding-top: 50px;
@@ -346,19 +382,19 @@ body {
     color: black;
   }
   
-  #PageFooter a:visited {
+#PageFooter a:visited {
     text-decoration: none;
   }
   
-  #PageFooter  a:hover {
+#PageFooter  a:hover {
     text-decoration: none;
   }
   
-  #PageFooter a:active {
+#PageFooter a:active {
     text-decoration: none;
   }
 
   #PageFooter a {
-      padding-bottom: 5px;
+      padding-bottom: 10px;
   }
 
