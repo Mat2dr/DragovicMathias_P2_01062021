@@ -311,13 +311,54 @@ body {
 
 
 #Activites {
+    padding-left: 50px;
     
 }
 
 #PageFooter {
     padding-top: 50px;
+    padding-left: 50px;
+    padding-bottom: 50px;
     background-color: #F2F2F2;
     display: flex;
+    justify-content: flex-start;
 }
 
+.FooterBlock1 {
+    display: flex;
+    flex-direction: column;
+    padding-right: 250px;
+}
+
+.FooterBlock2 {
+    display: flex;
+    flex-direction: column;
+    padding-right: 250px;
+}
+
+.FooterBlock3 {
+    display: flex;
+    flex-direction: column;
+}
+
+#PageFooter a:link {
+    text-decoration: none;
+    color: black;
+  }
+  
+  #PageFooter a:visited {
+    text-decoration: none;
+  }
+  
+  #PageFooter  a:hover {
+    text-decoration: none;
+  }
+  
+  #PageFooter a:active {
+    text-decoration: none;
+  }
+
+  #PageFooter a {
+      padding-bottom: 5px;
+  }
 
