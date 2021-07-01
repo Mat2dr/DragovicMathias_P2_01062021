@@ -323,9 +323,24 @@ body {
     justify-content: space-evenly;
 }
 
+.AnnonceActiv {
+    border: 5px solid white;
+    border-radius: 25px 25px 25px 25px;
+    background-color: white;
+    width: auto;
+    max-width: 27%;
+    min-width: 220px;
+
+    
+}
+
+
 #Activites .Annonce {
     background-color: #F2F2F2;
 }
+
+
+
 
 
 
@@ -345,6 +360,9 @@ body {
 #Activites a:active {
     text-decoration: none;
   }
+
+
+
 
 
 
