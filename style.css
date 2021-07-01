@@ -321,6 +321,7 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+    align-items: stretch;
 }
 
 .AnnonceActiv {
@@ -328,10 +329,9 @@ body {
     border-radius: 25px 25px 25px 25px;
     background-color: white;
     width: auto;
+    height: auto;
     max-width: 27%;
     min-width: 220px;
-
-    
 }
 
 
