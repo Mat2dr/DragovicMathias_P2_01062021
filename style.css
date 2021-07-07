@@ -284,6 +284,17 @@ body {
     flex-direction: column;
     align-content: space-around;
 }
+
+.TitrePop {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.IconPop {
+    font-size: 20px;
+}
+
 .AnnoncePop {
     display: flex;
     border: 2px solid white;
