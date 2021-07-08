@@ -17,6 +17,10 @@ body {
 
 }
 
+.Logo img{
+    height: 45px;
+  }
+
 .push {
     margin-left: auto;
 }
@@ -489,3 +493,11 @@ body {
   }
 
 /* MEDIA QUERIES*/ 
+
+@media screen and (max-width: 600px) {
+    .Logo img{
+        height: 100px;
+      }
+
+
+  }
