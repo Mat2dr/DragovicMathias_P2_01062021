@@ -1,6 +1,6 @@
 /* Parametres globaux de la page*/
 body {
-    font-family: "Raleway";
+    font-family: 'Raleway', sans-serif;
     margin: 0;
 
 }
@@ -10,7 +10,7 @@ body {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding: 32px;
+    padding-top: 45px;
     column-gap: 50px;
     padding-left: 50px ;
     padding-right: 50px ;
@@ -47,7 +47,7 @@ body {
 }
 
 .ButtonMenu3 a{
-    font-weight: 900;
+    font-weight: 700;
     color: #0065FC;
 }
 
@@ -60,14 +60,14 @@ body {
 
 #Head h1{
     margin-top: 30px;
-    margin-bottom: -13px;
-    font-size: 20px;
-    font-weight: bolder;
+    margin-bottom: -10px;
+    font-size: 22px;
+    font-weight: 700;
 }
 
 #Head h2{
     font-size: 15px;
-    font-weight: normal;
+    font-weight: 400;
 }
 
 /* Parametres du block Rechercher*/
@@ -81,16 +81,34 @@ body {
 }
 
 #Rechercher input{
+    max-width: 234px;
     padding: 14px;
-    font-size: 17px;
-    font-weight: bold;
+    font-size: 18px;
+    font-weight: 700;
     border: 1px solid #F2F2F2;
     background: white;
+    color: black;
 }
 
+::placeholder { 
+    color: black;
+    opacity: 1; 
+  }
+  
+  :-ms-input-placeholder { 
+    color: black;
+  }
+  
+  ::-ms-input-placeholder {
+    color: black;
+  }
+
+
 #Rechercher button{
+    max-width: 134px;
     padding: 14px;
-    font-size: 17px;
+    font-size: 18px;
+    font-weight: 400;
     color: white;
     border: 0px solid white;
     border-radius: 0px 15px 15px 0px;
@@ -100,7 +118,7 @@ body {
 
 #Rechercher i{
     padding: 16px;
-    max-width: 35px;
+    max-width: 51px;
     border: 1px solid #F2F2F2;
     border-radius: 15px 0px 0px 15px;
     background-color: #F2F2F2;
@@ -113,20 +131,20 @@ body {
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    column-gap: 50px;
+    column-gap: 30px;
     flex-wrap: wrap;
     padding-left: 50px ;
     padding-right: 50px ;
 }
 
 #Filtres h3 {
-    font-size: 15px;
-    font-weight: 900;
+    font-size: 18px;
+    font-weight: 700;
 }
 
 .TitreFiltres h2{
-    font-size: 17px;
-    font-weight: 900;
+    font-size: 18px;
+    font-weight: 700;
 }
 
 .ButtonFiltres {
@@ -135,17 +153,17 @@ body {
 }
 
 .IconFiltre {
-    margin-left: -2px;
     padding: 15px;
     border-radius: 50%;
     background-color: #DEEBFF;
-    width: 20px;
-    height: 20px;
+    width: 22px;
+    height: 22px;
     text-align: center;
 }
 
 .IconFiltre i{
     color: #0065FC;
+
 }
 
 .TextFiltre {
@@ -163,21 +181,29 @@ body {
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    column-gap: 15px;
+    column-gap: 8px;
     padding-left: 50px ;
     padding-right: 50px ;
 }
 
 .InfoIcon {
-    padding: 5px;
     border: 2px solid #F2F2F2;
-    border-radius: 25px 25px 25px 25px;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    text-align: center;
 }
 
 .InfoIcon i{
     color: #0065FC;
+    font-size: 12px;
+
 }
 
+.InfoText h4{
+    font-size: 16px;
+    font-weight: 400;
+}
 /* Parametres des hebergements */
 
 #Hebergement {
@@ -462,3 +488,4 @@ body {
       padding-bottom: 10px;
   }
 
+/* MEDIA QUERIES*/ 
