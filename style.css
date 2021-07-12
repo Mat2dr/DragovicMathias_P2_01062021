@@ -322,6 +322,11 @@ body {
     min-width: 400px;
 }
 
+.hebergementPopulaire .Note{
+    margin-block-start: 80px;
+    margin-block-end: 2px;
+}
+
 .hebergementPopulaire {
     display: flex;
     flex-direction: column;
@@ -372,8 +377,20 @@ body {
     padding-bottom: 70px;
 }
 
-.ContentActivites {
+#Activites h2{
+    font-size: 22px;
+    font-weight: 700;
+}
 
+#Activites h4{
+    font-size: 16px;
+    font-weight: 700;
+    padding-left: 15px;
+    margin-block-start: 10px;
+    margin-block-end: 10px;
+}
+
+.ContentActivites {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -449,11 +466,6 @@ body {
 #Activites a:active {
     text-decoration: none;
   }
-
-
-
-
-
 
 
 /* Parametre  Footer*/
