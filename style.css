@@ -265,6 +265,7 @@ body {
 }
 
 .hebergementExemple {
+    order: 1;
     border: 2px solid #F2F2F2;
     border-radius: 25px 25px 25px 25px;
     background-color: #F2F2F2;
@@ -322,22 +323,25 @@ body {
 
 /* Parametre  LES PLUS POPULAIRES*/
 .hebergementPopulaire {
+    order: 2;
     border: 2px solid #F2F2F2;
     border-radius: 25px 25px 25px 25px;
     background-color: #F2F2F2;
     padding: 20px;
+}
+
+.ContentPop {
     min-width: 400px;
-}
-
-.hebergementPopulaire .Note{
-    margin-block-start: 80px;
-    margin-block-end: 2px;
-}
-
-.hebergementPopulaire {
     display: flex;
     flex-direction: column;
     align-content: space-around;
+}
+
+.pushNotes {
+    flex: 1;
+}
+
+.hebergementPopulaire .Note{
 }
 
 .TitrePop {
@@ -351,12 +355,14 @@ body {
 }
 
 .AnnoncePop {
-    display: flex;
     border: 2px solid white;
     border-radius: 25px 25px 25px 25px;
     background-color: white;
     margin-bottom: 20px;
     box-shadow: 0 0 16px #0000002e;
+    display: flex;
+    align-items: stretch;
+    height: 100%;
 }
 
 .ImageAnnoncePop {
@@ -376,9 +382,8 @@ body {
 }
 
 .ContentAnnonce {
+    display: flex;
     flex-direction: column;
-    padding-left: 10px;
-    padding-right: 30px;
 }
 
 .AnnoncePop i {
@@ -544,6 +549,25 @@ body {
   }
 
 /* MEDIA QUERIES*/ 
+
+@media screen and (max-width: 1439px) {
+
+    #Hebergement {
+        flex-wrap: wrap;
+    }
+
+    .ContentPop {
+        flex-direction: row;
+        width: auto;
+    }
+
+    .AnnoncePop {
+        width: auto;
+        min-width: 50%;
+        height: 150px;
+    }
+
+  }
 
 @media screen and (max-width: 600px) {
 
