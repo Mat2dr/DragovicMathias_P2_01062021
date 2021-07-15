@@ -306,6 +306,10 @@ body {
     box-shadow: 0 0 16px #0000002e;
     margin-bottom: 15px;
 }
+
+.Annonce:hover {
+    transform: scale(1.1);
+}
 .Annonce i {
     color: #0065FC;
 }
@@ -362,6 +366,10 @@ body {
     display: flex;
     align-items: stretch;
     height: 100%;
+}
+
+.AnnoncePop:hover {
+    transform: scale(1.1);
 }
 
 .ImageAnnoncePop {
@@ -424,6 +432,10 @@ body {
     max-width: 27%;
     min-width: 90%;
     box-shadow: 0 0 16px #0000002e;
+}
+
+.AnnonceActiv:hover {
+    transform: scale(1.1);
 }
 
 .ImageAnnonceActiv img{
