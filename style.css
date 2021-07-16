@@ -369,7 +369,7 @@ body {
     box-shadow: 0 0 16px #0000002e;
     display: flex;
     align-items: stretch;
-    height: 100%;
+    min-height: 115px;
 }
 
 .AnnoncePop:hover {
