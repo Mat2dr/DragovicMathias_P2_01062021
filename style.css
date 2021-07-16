@@ -567,10 +567,16 @@ body {
         flex-wrap: wrap;
     }
 
+    .hebergementExemple {
+        flex-wrap: wrap;
+        order: 2;
+    }
+
     .hebergementPopulaire {
         margin-top: 20px;
         margin-bottom: 20px;
         flex-grow: 4;
+        order: 1;
     }
 
     .ContentPop {
