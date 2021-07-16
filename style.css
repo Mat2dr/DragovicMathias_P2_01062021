@@ -287,6 +287,10 @@ body {
 
 }
 
+#Hebergement a .h3:hover {
+    color: #0065FC;
+}
+
 
 #ContentHebergement {
     display: flex;
