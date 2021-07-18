@@ -565,7 +565,7 @@ body {
 
 /* MEDIA QUERIES*/ 
 
-@media screen and (max-width: 1439px) {
+@media screen and (max-width: 1000px) {
 
     #Hebergement {
         flex-wrap: wrap;
