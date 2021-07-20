@@ -133,7 +133,6 @@ body {
 
 #Rechercher button:hover {
     background: #0a6cff;
-
 }
 
 #Rechercher i{
@@ -142,6 +141,19 @@ body {
     border: 1px solid #F2F2F2;
     border-radius: 15px 0px 0px 15px;
     background-color: #F2F2F2;
+}
+
+#Rechercher button i{
+    max-width: 51px;
+    border: 1px solid #F2F2F2;
+    border-radius: 15px 15px 15px 15px;
+    background-color: #0065FC;
+}
+
+#Rechercher .rechercheIcon button{
+    padding: 0px;
+    background: white;
+    margin-left: -10px;
 }
 
 /* Parametres des filtres */
@@ -697,6 +709,7 @@ body {
         justify-content: center;
     }
 
+   
 
     #menu {
         justify-content: flex-start;
@@ -707,5 +720,29 @@ body {
     #menu :nth-child(3) { order: 4; }
     #menu :nth-child(4) { order: 5; }
     #menu :nth-child(5) { order: 3; }
+
+  }
+
+  @media screen and (max-width: 500px) {
+
+    #Rechercher {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+      
+    #Rechercher input {
+        width: 100%;
+    }
+    
+    .recherche button {
+        display: none;
+    }
+
+  }
+
+  @media screen and (min-width: 500px) {
+      .rechercheIcon {
+          display: none;
+      }
 
   }
