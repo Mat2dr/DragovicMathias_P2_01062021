@@ -150,6 +150,8 @@ body {
 #FiltresUL {
     display: flex;
     flex-wrap: wrap;
+    list-style-type: none;
+    padding-inline-start: 0px;
 }
 
 #Filtres h3 {
