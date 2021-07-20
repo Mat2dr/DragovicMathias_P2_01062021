@@ -78,8 +78,10 @@ body {
 }
 
 #Head h1{
-    font-size: 22px;
+    font-size: 23px;
     font-weight: 700;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
 }
 
 #Head h2{
@@ -131,7 +133,6 @@ body {
 
 #Rechercher button:hover {
     background: #0a6cff;
-
 }
 
 #Rechercher i{
@@ -140,6 +141,19 @@ body {
     border: 1px solid #F2F2F2;
     border-radius: 15px 0px 0px 15px;
     background-color: #F2F2F2;
+}
+
+#Rechercher button i{
+    max-width: 51px;
+    border: 1px solid #F2F2F2;
+    border-radius: 15px 15px 15px 15px;
+    background-color: #0065FC;
+}
+
+#Rechercher .rechercheIcon button{
+    padding: 0px;
+    background: white;
+    margin-left: -10px;
 }
 
 /* Parametres des filtres */
@@ -599,7 +613,6 @@ body {
     }
 
     .hebergementPopulaire {
-        margin-top: 20px;
         margin-bottom: 20px;
         flex-grow: 4;
         order: 1;
@@ -666,7 +679,6 @@ body {
     }
 
     .hebergementPopulaire {
-        margin-top: 20px;
         margin-bottom: 20px;
         flex-grow: 4;
         order: 1;
@@ -682,10 +694,9 @@ body {
 @media screen and (max-width: 615px) {
 
     #FullContent {
-        padding: 0;
-    }
-
-    #menu {
+        padding: 0px;
+    } 
+       #menu {
         justify-content: flex-start;
     }
 
@@ -694,5 +705,99 @@ body {
     #menu :nth-child(3) { order: 4; }
     #menu :nth-child(4) { order: 5; }
     #menu :nth-child(5) { order: 3; }
+
+    #Head {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    #Rechercher {
+        justify-content: center;
+    }
+
+    #Filtres {
+        padding: 0px 20px 0px 20px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    ul {
+        margin-block-start: 0em;
+        margin-block-end: 0em;
+    }
+
+    .hebergementPopulaire {
+        border: 0px solid #F2F2F2;
+        border-radius: 0px 0px 0px 0px;
+        padding: 20px;
+    }
+
+    .hebergementExemple {
+        border: 0px solid white;
+        background-color: white;
+        border-radius: 0px 0px 0px 0px;
+        padding: 0px 20px 0px 20px;
+    }
+    .hebergementPopulaire h2 {
+        margin-block-start: 0em;
+        margin-block-end: 0em;
+    }
+
+    #ContentHebergement .Annonce {
+        max-width: 100%;
+    }
+
+    #Activites {
+        padding: 0px 20px 0px 20px;
+    }
+
+    .ContentActivites {
+        flex-direction: column;
+    }
+
+    .AnnonceActiv {
+        max-width: 100%;
+    }
+
+    #Activites .Block1 {
+        width: 100%;
+    }
+    #Activites .Block2 {
+        width: 100%;
+    }
+    #Activites .Block3 {
+        width: 100%;
+    }
+    #Activites .Block4 {
+        width: 100%;
+    }
+  }
+
+  @media screen and (max-width: 500px) {
+
+    #Rechercher {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+      
+    #Rechercher input {
+        width: 100%;
+    }
+    
+    .recherche button {
+        display: none;
+    }
+
+    #ContentFooter {
+        padding: 0px 20px 0px 20px;
+        flex-direction: column;
+    }
+
+  }
+
+  @media screen and (min-width: 500px) {
+      .rechercheIcon {
+          display: none;
+      }
 
   }
