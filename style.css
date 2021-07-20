@@ -147,6 +147,11 @@ body {
     flex-wrap: wrap;
 }
 
+#FiltresUL {
+    display: flex;
+    flex-wrap: wrap;
+}
+
 #Filtres h3 {
     font-size: 18px;
     font-weight: 700;
