@@ -747,6 +747,33 @@ body {
         max-width: 100%;
     }
 
+    #Activites {
+        padding: 0px 20px 0px 20px;
+    }
+
+    .ContentActivites {
+        flex-direction: column;
+    }
+
+    .AnnonceActiv {
+        max-width: 100%;
+    }
+
+    #Activites .Block1 {
+        width: 100%;
+    }
+    #Activites .Block2 {
+        width: 100%;
+    }
+    #Activites .Block3 {
+        width: 100%;
+    }
+    #Activites .Block4 {
+        width: 100%;
+    }
+
+   
+
 
     
 
