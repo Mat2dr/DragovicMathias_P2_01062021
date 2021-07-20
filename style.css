@@ -177,8 +177,25 @@ body {
 }
 
 .ButtonFiltres:hover {
-    background-color: #F2F2F2;
+    background-color:#DEEBFF;
 }
+
+#FiltresUL a:link {
+    text-decoration: none;
+    color: black;
+  }
+  
+  #FiltresUL a:visited {
+    text-decoration: none;
+  }
+  
+  #FiltresUL a:hover {
+    text-decoration: none;
+  }
+  
+  #FiltresUL a:active {
+    text-decoration: none;
+  }
 
 .IconFiltre {
     border-radius: 50%;
@@ -255,7 +272,7 @@ body {
     text-decoration: none;
   }
   
-#Hebergementu a:active {
+#Hebergement a:active {
     text-decoration: none;
   }
 
