@@ -147,10 +147,20 @@ body {
     flex-wrap: wrap;
 }
 
+#FiltresUL {
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+    padding-inline-start: 0px;
+}
+
 #Filtres h3 {
     font-size: 18px;
     font-weight: 700;
     margin: 0;
+}
+.TitreFiltres {
+    padding-right: 10px;
 }
 
 .TitreFiltres h2{
@@ -160,10 +170,32 @@ body {
 }
 
 .ButtonFiltres {
-    margin: 10px;
+    margin: 10px 10px 0px 0px;
     display: flex;
     align-items: center;
+    cursor: pointer;
 }
+
+.ButtonFiltres:hover {
+    background-color:#DEEBFF;
+}
+
+#FiltresUL a:link {
+    text-decoration: none;
+    color: black;
+  }
+  
+  #FiltresUL a:visited {
+    text-decoration: none;
+  }
+  
+  #FiltresUL a:hover {
+    text-decoration: none;
+  }
+  
+  #FiltresUL a:active {
+    text-decoration: none;
+  }
 
 .IconFiltre {
     border-radius: 50%;
@@ -240,7 +272,7 @@ body {
     text-decoration: none;
   }
   
-#Hebergementu a:active {
+#Hebergement a:active {
     text-decoration: none;
   }
 
@@ -323,9 +355,7 @@ body {
     object-fit: cover;
     max-width: 100%;
     width: 100%;
-    max-height: 100%;
     border-radius: 1rem 1rem 0 0;
-
 }
 
 
