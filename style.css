@@ -771,12 +771,6 @@ body {
     #Activites .Block4 {
         width: 100%;
     }
-
-   
-
-
-    
-
   }
 
   @media screen and (max-width: 500px) {
@@ -792,6 +786,11 @@ body {
     
     .recherche button {
         display: none;
+    }
+
+    #ContentFooter {
+        padding: 0px 20px 0px 20px;
+        flex-direction: column;
     }
 
   }
