@@ -682,8 +682,13 @@ body {
 @media screen and (max-width: 615px) {
 
     #FullContent {
-        padding: 0;
+        padding: 0px;
     }
+
+    #Rechercher {
+        justify-content: center;
+    }
+
 
     #menu {
         justify-content: flex-start;
