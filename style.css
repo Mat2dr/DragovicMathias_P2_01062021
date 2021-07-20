@@ -129,6 +129,11 @@ body {
     cursor: pointer;
 }
 
+#Rechercher button:hover {
+    background: #0a6cff;
+
+}
+
 #Rechercher i{
     padding: 16px;
     max-width: 51px;
@@ -579,19 +584,20 @@ body {
   
 #PageFooter a:visited {
     text-decoration: none;
+    color: black;
   }
   
 #PageFooter  a:hover {
-    text-decoration: none;
+    text-decoration: underline;
   }
   
 #PageFooter a:active {
     text-decoration: none;
   }
 
-  #PageFooter a {
-      padding-bottom: 10px;
-  }
+#PageFooter a {
+    padding-bottom: 10px;
+    }
 
 /* MEDIA QUERIES*/ 
 
