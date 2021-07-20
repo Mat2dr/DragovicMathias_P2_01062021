@@ -159,6 +159,9 @@ body {
     font-weight: 700;
     margin: 0;
 }
+.TitreFiltres {
+    padding-right: 10px;
+}
 
 .TitreFiltres h2{
     font-size: 18px;
@@ -170,6 +173,11 @@ body {
     margin: 10px 10px 0px 0px;
     display: flex;
     align-items: center;
+    cursor: pointer;
+}
+
+.ButtonFiltres:hover {
+    background-color: #F2F2F2;
 }
 
 .IconFiltre {
