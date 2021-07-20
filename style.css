@@ -458,16 +458,12 @@ body {
 
 .ContentActivites {
     display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    align-items: stretch;
 }
 
 .AnnonceActiv {
     display: flex;
     flex-direction: column;
     border-radius: 25px 25px 25px 25px;
-    width: auto;
     max-width: 27%;
     min-width: 90%;
     box-shadow: 0 0 16px #0000002e;
@@ -485,18 +481,12 @@ body {
 }
 #Activites .Block1 .ImageAnnonceActiv img {
     width: 100%;
-    height: 456px;
-    object-fit: cover;
-    border-radius: 25px 25px 0px 0px;
-
+    height: 455px;
 }
 
 #Activites .Block2 .ImageAnnonceActiv img {
     width: 100%;
-    height: 180px;
-    object-fit: cover;
-    border-radius: 25px 25px 0px 0px;
-
+    height: 196px;
 }
 
 #Activites a{
@@ -505,18 +495,12 @@ body {
 
 #Activites .Block3 .ImageAnnonceActiv img {
     width: 100%;
-    height: 456px;
-    object-fit: cover;
-    border-radius: 25px 25px 0px 0px;
-
+    height: 455px;
 }
 
 #Activites .Block4 .ImageAnnonceActiv img {
     width: 100%;
-    height: 180px;
-    object-fit: cover;
-    border-radius: 25px 25px 0px 0px;
-
+    height: 196px;
 }
 
 #Activites a:link {
@@ -603,6 +587,8 @@ body {
 
 @media screen and (max-width: 1100px) {
 
+    /* HEBERGEMENT MQ */ 
+
     #Hebergement {
         flex-wrap: wrap;
     }
@@ -619,6 +605,8 @@ body {
         order: 1;
     }
 
+    /* HEBERGEMENT POP MQ */ 
+
     .ContentPop {
         flex-direction: row;
         width: auto;
@@ -629,6 +617,39 @@ body {
         height: 130px;
         margin-right: 20px;
         margin-top: 20px;
+    }
+
+    /* ACTIVITES MQ */ 
+
+    .ContentActivites {
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+
+    #Activites .Block1{
+        width: 50%;
+    }
+
+    #Activites .Block2{
+        width: 50%;
+    }
+
+    #Activites .Block3{
+        width: 50%;
+    }
+
+    #Activites .Block4{
+        width: 50%;
+    }
+
+    #Activites .Block3 .ImageAnnonceActiv img {
+        width: 100%;
+        height: 196px;
+    }
+
+    #Activites .Block1 .ImageAnnonceActiv img {
+        width: 100%;
+        height: 196px;
     }
 
   }
@@ -658,7 +679,11 @@ body {
 
   }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 615px) {
+
+    #FullContent {
+        padding: 0;
+    }
 
     #menu {
         justify-content: flex-start;
@@ -669,9 +694,5 @@ body {
     #menu :nth-child(3) { order: 4; }
     #menu :nth-child(4) { order: 5; }
     #menu :nth-child(5) { order: 3; }
-
-    .Logo img{
-        height: 70px;
-      }
 
   }
