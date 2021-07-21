@@ -17,27 +17,31 @@ body {
     justify-content: space-around;
     align-items: center;
     column-gap: 50px;
-    padding-top: 25px;
 }
 
 .ButtonMenu1 {
     order: 1;
+    border-top: 3px solid #0065FC;
+    padding: 25px;
 }
 
 .ButtonMenu2 {
     order: 2;
+    padding: 25px;
 }
 
 .ButtonMenu3 {
     order: 3;
+    padding: 25px;
 }
 
 .Logo img{
-    height: 45px;
+    padding-top: 0px;
   }
 
 .push {
     margin-left: auto;
+    padding-top: 25px;
 }
 
 #menu a:link {
@@ -49,7 +53,8 @@ body {
   }
   
 #menu  a:hover {
-    text-decoration: overline;
+    text-decoration: none;
+    color: rgba(0, 105, 243, 0.849);
   }
   
 #menu a:active {
