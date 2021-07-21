@@ -16,28 +16,37 @@ body {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    column-gap: 50px;
-    padding-top: 25px;
+}
+
+.Navbar {
+    display: flex;
+    flex-direction: row;
+
 }
 
 .ButtonMenu1 {
     order: 1;
+    border-top: 3px solid #0065FC;
+    padding: 25px;
 }
 
 .ButtonMenu2 {
     order: 2;
+    padding: 25px;
 }
 
 .ButtonMenu3 {
     order: 3;
+    padding: 25px;
 }
 
 .Logo img{
-    height: 45px;
+    padding-top: 0px;
   }
 
 .push {
     margin-left: auto;
+    padding-top: 25px;
 }
 
 #menu a:link {
@@ -49,7 +58,8 @@ body {
   }
   
 #menu  a:hover {
-    text-decoration: overline;
+    text-decoration: none;
+    color: rgba(0, 105, 243, 0.849);
   }
   
 #menu a:active {
@@ -696,15 +706,42 @@ body {
     #FullContent {
         padding: 0px;
     } 
-       #menu {
-        justify-content: flex-start;
+    #menu {
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    .Logo {
+        padding-left: 20px;
     }
 
     #menu :nth-child(1) { order: 1; }
     #menu :nth-child(2) { order: 2; }
     #menu :nth-child(3) { order: 4; }
-    #menu :nth-child(4) { order: 5; }
-    #menu :nth-child(5) { order: 3; }
+    #menu :nth-child(4) { order: 3; }
+
+    .Navbar {
+        width: 100%;
+        align-content: stretch;
+    }
+
+    .ButtonMenu1 {
+        display: flex;
+        justify-content: center;
+        width: 50%;
+        border-top: 0px solid #0065FC;
+        border-bottom: 3px solid #0065FC;
+    }
+
+    .ButtonMenu2 {
+        display: flex;
+        justify-content: center;
+        width: 50%;
+        border-bottom: 3px solid #F2F2F2;
+
+    }
+
+
 
     #Head {
         padding-left: 20px;
