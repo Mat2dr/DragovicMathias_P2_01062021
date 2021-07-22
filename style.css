@@ -667,12 +667,10 @@ body {
 
     #Activites .Block3 .ImageAnnonceActiv img {
         width: 100%;
-        height: 196px;
     }
 
     #Activites .Block1 .ImageAnnonceActiv img {
         width: 100%;
-        height: 196px;
     }
 
   }
@@ -780,6 +778,10 @@ body {
         margin-block-end: 0em;
     }
 
+    #ContentHebergement {
+        justify-content: center;
+    }
+
     #ContentHebergement .Annonce {
         max-width: 100%;
     }
@@ -808,6 +810,16 @@ body {
     #Activites .Block4 {
         width: 100%;
     }
+
+    #Activites .Block3 .ImageAnnonceActiv img {
+        height: 200px;
+        width: 100%;
+    }
+
+    #Activites .Block1 .ImageAnnonceActiv img {
+        height: 200px;
+        width: 100%;
+    }
   }
 
   @media screen and (max-width: 500px) {
@@ -828,6 +840,10 @@ body {
     #ContentFooter {
         padding: 0px 20px 0px 20px;
         flex-direction: column;
+    }
+
+    .ContentPop {
+        min-width: auto;
     }
 
   }
