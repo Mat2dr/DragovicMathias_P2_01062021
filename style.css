@@ -21,25 +21,23 @@ body {
 .Navbar {
     display: flex;
     flex-direction: row;
-
+    list-style-type: none;
 }
 
 .ButtonMenu1 {
     order: 1;
-    border-top: 3px solid #0065FC;
-    padding: 25px;
 }
 
 .ButtonMenu2 {
     order: 2;
-    padding: 25px;
 }
 
 .ButtonMenu3 {
     order: 3;
-    padding: 25px;
 }
-
+.Logo {
+    padding: 20px;
+}
 .Logo img{
     padding-top: 0px;
   }
@@ -69,15 +67,19 @@ body {
 .ButtonMenu1 a{
     font-weight: 600;
     color: #0065FC;
+    padding: 20px;
+    border-top: 3px solid #0065FC;
 }
 
 .ButtonMenu2 a{
     font-weight: 600;
+    padding: 20px;
 }
 
 .ButtonMenu3 a{
     font-weight: 700;
     color: #0065FC;
+    padding: 20px;
 }
 
 
