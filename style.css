@@ -368,7 +368,7 @@ ul {
 #ContentHebergement {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .Annonce {  
@@ -377,9 +377,7 @@ ul {
     border: 5px solid white;
     border-radius: 25px 25px 25px 25px;
     background-color: white;
-    width: auto;
-    max-width: 27%;
-    min-width: 220px;
+    width: 30%;
     box-shadow: 0 0 16px #0000002e;
     margin-bottom: 15px;
 }
@@ -709,6 +707,10 @@ ul {
         width: auto;
     }
 
+    .Annonce {
+        width: 45%;
+    }
+
   }
 
 @media screen and (max-width: 615px) {
@@ -809,7 +811,7 @@ ul {
     }
 
     #ContentHebergement .Annonce {
-        max-width: 100%;
+        width: 100%;
     }
 
     #Activites {
