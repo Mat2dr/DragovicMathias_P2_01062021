@@ -22,6 +22,11 @@ body {
     display: flex;
     flex-direction: row;
     list-style-type: none;
+    margin: 0px;
+}
+
+ul {
+    padding-inline-start: 0px;
 }
 
 .ButtonMenu1 {
@@ -35,16 +40,31 @@ body {
 .ButtonMenu3 {
     order: 3;
 }
-.Logo {
+
+.ButtonMenu1 a{
+    font-weight: 600;
+    color: #0065FC;
+    border-top: 3px solid #0065FC;
     padding: 20px;
 }
+
+.ButtonMenu2 a{
+    font-weight: 600;
+    padding: 20px;
+}
+
+.ButtonMenu3 a{
+    font-weight: 700;
+    color: #0065FC;
+    padding: 20px;
+}
+
 .Logo img{
     padding-top: 0px;
   }
 
 .push {
     margin-left: auto;
-    padding-top: 25px;
 }
 
 #menu a:link {
@@ -64,23 +84,7 @@ body {
     text-decoration: overline;
   }
 
-.ButtonMenu1 a{
-    font-weight: 600;
-    color: #0065FC;
-    padding: 20px;
-    border-top: 3px solid #0065FC;
-}
 
-.ButtonMenu2 a{
-    font-weight: 600;
-    padding: 20px;
-}
-
-.ButtonMenu3 a{
-    font-weight: 700;
-    color: #0065FC;
-    padding: 20px;
-}
 
 
 /* Parametres Text Header */
@@ -729,6 +733,12 @@ body {
         display: flex;
         justify-content: center;
         width: 50%;
+    }
+
+    .ButtonMenu1 a{
+        display: flex;
+        justify-content: center;
+        width: 100%;
         border-top: 0px solid #0065FC;
         border-bottom: 3px solid #0065FC;
     }
@@ -737,11 +747,14 @@ body {
         display: flex;
         justify-content: center;
         width: 50%;
-        border-bottom: 3px solid #F2F2F2;
-
     }
 
-
+    .ButtonMenu2 a{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        border-bottom: 3px solid #F2F2F2;
+    }
 
     #Head {
         padding-left: 20px;
@@ -762,6 +775,11 @@ body {
         margin-block-start: 0em;
         margin-block-end: 0em;
     }
+    #Info {
+        padding: 0px 20px 0px 20px;
+    }
+
+    
 
     .hebergementPopulaire {
         border: 0px solid #F2F2F2;
