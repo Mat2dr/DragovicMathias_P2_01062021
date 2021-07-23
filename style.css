@@ -16,6 +16,8 @@ body {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    padding-top: 13px;
+    padding-bottom: 13px;
 }
 
 .Navbar {
@@ -27,6 +29,8 @@ body {
 
 ul {
     padding-inline-start: 0px;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
 }
 
 .ButtonMenu1 {
@@ -45,22 +49,24 @@ ul {
     font-weight: 600;
     color: #0065FC;
     border-top: 3px solid #0065FC;
-    padding: 20px;
+    padding: 25px;
 }
 
 .ButtonMenu2 a{
     font-weight: 600;
-    padding: 20px;
+    padding: 25px;
+    border-top: 3px solid White;
 }
 
 .ButtonMenu3 a{
     font-weight: 700;
     color: #0065FC;
-    padding: 20px;
+    padding: 25px;
+    border-top: 3px solid White;
 }
 
 .Logo img{
-    padding-top: 0px;
+
   }
 
 .push {
