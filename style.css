@@ -693,10 +693,22 @@ ul {
 
     #Activites .Block3 .ImageAnnonceActiv img {
         width: 100%;
+        height: 365px;
     }
 
     #Activites .Block1 .ImageAnnonceActiv img {
         width: 100%;
+        height: 365px;
+    }
+
+    #Activites .Block2 .ImageAnnonceActiv img {
+        width: 100%;
+        height: 150px;
+    }
+
+    #Activites .Block4 .ImageAnnonceActiv img {
+        width: 100%;
+        height: 150px;
     }
 
   }
