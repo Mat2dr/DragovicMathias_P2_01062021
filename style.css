@@ -604,6 +604,7 @@ a, a:focus {
 
 #PageFooter {
     background-color: #F2F2F2;
+    padding: 40px 50px 40px 50px;
 }
 
 #ContentFooter {
@@ -923,6 +924,10 @@ a, a:focus {
     #Activites .Block4 .ImageAnnonceActiv img {
         height: 150px;
     }
+
+    #PageFooter {
+        padding: 20px 20px 20px 20px;
+    }
   }
 
   @media screen and (max-width: 500px) {
@@ -941,7 +946,6 @@ a, a:focus {
     }
 
     #ContentFooter {
-        padding: 0px 20px 0px 20px;
         flex-direction: column;
     }
 
