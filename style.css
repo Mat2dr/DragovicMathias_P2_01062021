@@ -751,6 +751,8 @@ a, a:focus {
 
 @media screen and (max-width: 850px) {
 
+    /* HEBERGEMENT MQ en dessous de 850px */ 
+
     #Hebergement {
         flex-wrap: wrap;
     }
@@ -759,6 +761,8 @@ a, a:focus {
         flex-wrap: wrap;
         order: 2;
     }
+
+    /* HEBERGEMENT POP MQ en dessous de 850px */
 
     .hebergementPopulaire {
         margin-bottom: 20px;
@@ -779,9 +783,14 @@ a, a:focus {
 
 @media screen and (max-width: 615px) {
 
+    /* Page MQ en dessous de 615px */
+
     #FullContent {
         padding: 0px;
     } 
+
+    /* Menu MQ en dessous de 615px */
+
     #menu {
         align-items: center;
         flex-wrap: wrap;
@@ -832,15 +841,21 @@ a, a:focus {
     #menu a:hover {
         border-top: 0px solid white;
       }
+  
+    /* Head MQ en dessous de 615px */
 
     #Head {
         padding-left: 20px;
         padding-right: 20px;
     }
 
+    /* Rechercher MQ en dessous de 615px */
+
     #Rechercher {
         justify-content: center;
     }
+
+    /* Filtres MQ en dessous de 615px */
 
     #Filtres {
         padding: 0px 20px 0px 20px;
@@ -852,11 +867,12 @@ a, a:focus {
         margin-block-start: 0em;
         margin-block-end: 0em;
     }
+
     #Info {
         padding: 0px 20px 0px 20px;
     }
 
-    
+    /* Hebergements MQ en dessous de 615px */
 
     .hebergementPopulaire {
         border: 0px solid #F2F2F2;
@@ -870,6 +886,7 @@ a, a:focus {
         border-radius: 0px 0px 0px 0px;
         padding: 0px 20px 0px 20px;
     }
+
     .hebergementPopulaire h2 {
         margin-block-start: 0em;
         margin-block-end: 0em;
@@ -882,6 +899,8 @@ a, a:focus {
     #ContentHebergement .Annonce {
         width: 100%;
     }
+
+    /* Activites MQ en dessous de 615px */
 
     #Activites {
         padding: 0px 20px 0px 20px;
@@ -932,6 +951,8 @@ a, a:focus {
 
   @media screen and (max-width: 500px) {
 
+    /* Rechercher MQ en dessous de 500px */
+
     #Rechercher {
         padding-left: 20px;
         padding-right: 20px;
@@ -945,19 +966,26 @@ a, a:focus {
         display: none;
     }
 
-    #ContentFooter {
-        flex-direction: column;
-    }
-
+    /* Hebergement POP MQ en dessous de 500px */
+    
     .ContentPop {
         min-width: auto;
+    }
+
+    /* Footer MQ en dessous de 500px */
+
+    #ContentFooter {
+        flex-direction: column;
     }
 
   }
 
   @media screen and (min-width: 500px) {
-      .rechercheIcon {
-          display: none;
-      }
+
+    /* Rechercher MQ au dessus de 615px */
+
+    .rechercheIcon {
+        display: none;
+    }
 
   }
