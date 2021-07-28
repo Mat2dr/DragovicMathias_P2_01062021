@@ -65,10 +65,6 @@ ul {
     border-top: 3px solid White;
 }
 
-.Logo img{
-
-  }
-
 .push {
     margin-left: auto;
 }
@@ -77,17 +73,22 @@ ul {
     text-decoration: none;
   }
   
-#menu a:visited {
-    text-decoration: none;
+a.ButtonMenu1:visited {
+    color: #0065FC;
   }
+
+a, a:focus {
+
+}
   
-#menu  a:hover {
+#menu a:hover {
     text-decoration: none;
     color: rgba(0, 105, 243, 0.849);
+    border-top: 3px solid #0065FC;
   }
   
 #menu a:active {
-    text-decoration: overline;
+    text-decoration: none;
   }
 
 
@@ -228,6 +229,11 @@ ul {
   
   #FiltresUL a:visited {
     text-decoration: none;
+    color: black;
+  }
+
+  #FiltresUL a:focus{
+
   }
   
   #FiltresUL a:hover {
@@ -307,6 +313,11 @@ ul {
   
 #Hebergement a:visited {
     text-decoration: none;
+    color: black;
+  }
+
+#Hebergement a:focus {
+
   }
   
 #Hebergement  a:hover {
@@ -320,6 +331,9 @@ ul {
 #Hebergement h2 {
     font-size: 22px;
     font-weight: 700;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    padding: 20px 0px 20px 0px;
 }
 
 #Hebergement h4 {
@@ -343,7 +357,7 @@ ul {
     border: 2px solid #F2F2F2;
     border-radius: 25px 25px 25px 25px;
     background-color: #F2F2F2;
-    padding: 25px;
+    padding: 20px;
     
 }
 
@@ -570,7 +584,11 @@ ul {
   }
 
 #Activites a:visited {
-    text-decoration: none;
+    color: black;
+  }
+
+#Activites a:focus {
+
   }
 
 #Activites  a:hover {
@@ -586,6 +604,7 @@ ul {
 
 #PageFooter {
     background-color: #F2F2F2;
+    padding: 40px 50px 40px 50px;
 }
 
 #ContentFooter {
@@ -632,6 +651,10 @@ ul {
     text-decoration: none;
     color: black;
   }
+
+#PageFooter a:focus {
+    
+}
   
 #PageFooter  a:hover {
     text-decoration: underline;
@@ -660,6 +683,11 @@ ul {
         margin-bottom: 20px;
         flex-grow: 4;
         order: 1;
+    }
+
+    .hebergementExemple h2{
+        padding: 10px 0px 25px 0px !important;
+
     }
 
     /* HEBERGEMENT POP MQ */ 
@@ -810,6 +838,10 @@ ul {
         border-top: 0px solid;
     }
 
+    #menu a:hover {
+        border-top: 0px solid white;
+      }
+  
     /* Head MQ en dessous de 615px */
 
     #Head {
@@ -911,6 +943,10 @@ ul {
     #Activites .Block4 .ImageAnnonceActiv img {
         height: 150px;
     }
+
+    #PageFooter {
+        padding: 20px 20px 20px 20px;
+    }
   }
 
   @media screen and (max-width: 500px) {
@@ -939,7 +975,6 @@ ul {
     /* Footer MQ en dessous de 500px */
 
     #ContentFooter {
-        padding: 0px 20px 0px 20px;
         flex-direction: column;
     }
 
