@@ -77,9 +77,13 @@ ul {
     text-decoration: none;
   }
   
-#menu a:visited {
-    text-decoration: none;
+a.ButtonMenu1:visited {
+    color: #0065FC;
   }
+
+a, a:focus {
+
+}
   
 #menu  a:hover {
     text-decoration: none;
@@ -87,7 +91,7 @@ ul {
   }
   
 #menu a:active {
-    text-decoration: overline;
+    text-decoration: none;
   }
 
 
@@ -228,6 +232,11 @@ ul {
   
   #FiltresUL a:visited {
     text-decoration: none;
+    color: black;
+  }
+
+  #FiltresUL a:focus{
+
   }
   
   #FiltresUL a:hover {
@@ -307,6 +316,11 @@ ul {
   
 #Hebergement a:visited {
     text-decoration: none;
+    color: black;
+  }
+
+#Hebergement a:focus {
+
   }
   
 #Hebergement  a:hover {
@@ -570,7 +584,11 @@ ul {
   }
 
 #Activites a:visited {
-    text-decoration: none;
+    color: black;
+  }
+
+#Activites a:focus {
+
   }
 
 #Activites  a:hover {
@@ -632,6 +650,10 @@ ul {
     text-decoration: none;
     color: black;
   }
+
+#PageFooter a:focus {
+    
+}
   
 #PageFooter  a:hover {
     text-decoration: underline;
