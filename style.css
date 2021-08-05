@@ -93,8 +93,6 @@ a, a:focus {
   }
 
 
-
-
 /* Parametres Text Header */
 #Head {
     padding-top: 20px;
@@ -514,6 +512,7 @@ a, a:focus {
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 0px 15px;
     
 }
 
@@ -523,6 +522,7 @@ a, a:focus {
     flex-direction: column;
     align-items: center;
     row-gap: 20px;
+    padding: 0px 15px;
 }
 
 #Activites .Block3{
@@ -530,6 +530,7 @@ a, a:focus {
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 0px 15px;
 }
 
 #Activites .Block4{
@@ -538,15 +539,16 @@ a, a:focus {
     flex-direction: column;
     align-items: center;
     row-gap: 20px;
+    padding: 0px 15px;
 }
 
 .AnnonceActiv {
     display: flex;
     flex-direction: column;
     border-radius: 25px 25px 25px 25px;
-    max-width: 27%;
-    min-width: 90%;
+    width: 100%;
     box-shadow: 0 0 16px #0000002e;
+    height: 100%;
 }
 
 .AnnonceActiv:hover {
@@ -710,22 +712,23 @@ a, a:focus {
     .ContentActivites {
         flex-wrap: wrap;
         flex-direction: row;
+        justify-content: center;
     }
 
     #Activites .Block1{
-        width: 50%;
+        width: 45%;
     }
 
     #Activites .Block2{
-        width: 50%;
+        width: 45%;
     }
 
     #Activites .Block3{
-        width: 50%;
+        width: 45%;
     }
 
     #Activites .Block4{
-        width: 50%;
+        width: 45%;
     }
 
     #Activites .Block3 .ImageAnnonceActiv img {
@@ -785,13 +788,11 @@ a, a:focus {
 @media screen and (max-width: 615px) {
 
     /* Page MQ en dessous de 615px */
-
     #FullContent {
         padding: 0px;
     } 
 
     /* Menu MQ en dessous de 615px */
-
     #menu {
         align-items: center;
         flex-wrap: wrap;
@@ -901,7 +902,15 @@ a, a:focus {
         width: 100%;
     }
 
-    /* Activites MQ en dessous de 615px */
+
+
+    #PageFooter {
+        padding: 20px 20px 20px 20px;
+    }
+  }
+
+  @media screen and (max-width: 663px) { 
+          /* Activites MQ en dessous de 615px */
 
     #Activites {
         padding: 0px 20px 0px 20px;
@@ -945,9 +954,19 @@ a, a:focus {
         height: 150px;
     }
 
-    #PageFooter {
-        padding: 20px 20px 20px 20px;
+    #Activites .Block1 {
+        padding: 0px 0px; 
     }
+    #Activites .Block2 {
+        padding: 0px 0px; 
+    }
+    #Activites .Block3 {
+        padding: 0px 0px;
+    }
+    #Activites .Block4 {
+        padding: 0px 0px;
+    }
+      
   }
 
   @media screen and (max-width: 500px) {
