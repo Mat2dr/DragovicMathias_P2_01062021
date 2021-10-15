@@ -10,9 +10,9 @@
 
 - :one: Comprendre la maquette, puis décomposer avec figma.com pour avoir les bonnes proportions. :heavy_check_mark:
 - :two: Création du code par sections (Header, Body, Footer). :heavy_check_mark:
-- :three: Création du style CSS du site.
-- :four: Responsive design: Adapté le site aux differentes d'ecrans.
-- :five: Mettre la page sur GitHub Pages.
+- :three: Création du style CSS du site. :heavy_check_mark:
+- :four: Responsive design: Adapté le site aux differentes d'ecrans. :heavy_check_mark:
+- :five: Mettre la page sur GitHub Pages. :heavy_check_mark:
 
 ## Liens:
 
