@@ -1,6 +1,6 @@
 ### Project RESERVIA :airplane:
 
- Reservia, une petite entreprise proposant un outil de planification de vacances. :palm_tree: :sunrise:<br />
+ Reservia, une petite entreprise proposant un outil de planification de vacances. :palm_tree: :sunrise: :palm_tree:<br />
  Leur site permet aux usagers de trouver des hébergements et des activités dans la ville de leur choix. <br />
  Les hébergements peuvent également être filtrés par thématique, par exemple leur budget ou leur ambiance.<br />
 
