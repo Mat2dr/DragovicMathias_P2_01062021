@@ -1,4 +1,4 @@
-### Project RESERVIA :airplane:
+### RESERVIA :airplane:
 
  Reservia, une petite entreprise proposant un outil de planification de vacances. :palm_tree: :sunrise: :palm_tree:<br />
  Leur site permet aux usagers de trouver des hébergements et des activités dans la ville de leur choix. <br />
